@@ -13,3 +13,6 @@ function showContact() {
 function closeContact() {
     document.getElementById("contactPopup").style.display = "none";
 }
+function openPortfolioPDF() {
+    window.open("graphic design.pdf", "_blank");
+}
